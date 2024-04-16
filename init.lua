@@ -1,1 +1,1 @@
-require("mws")
+require("krs")

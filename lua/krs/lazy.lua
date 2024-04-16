@@ -12,7 +12,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-  spec = "mws.plugins",
+  spec = "krs.plugins",
   change_detection = {
     notify = false,
   },
