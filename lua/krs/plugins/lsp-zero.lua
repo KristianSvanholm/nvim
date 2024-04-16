@@ -114,6 +114,7 @@ return {
     else
       mason_lspconfig.setup({
         ensure_installed = {
+          "rust_analyzer",
           "pyright",
           "ansiblels",
           "lua_ls",
@@ -188,6 +189,8 @@ return {
       require("lspconfig").terraformls.setup({
         filetypes = { "terraform", "tf" },
       })
+
+      require("lspconfig").rust_analyzer.setup({})
 
       require("lspconfig").bashls.setup({})
 

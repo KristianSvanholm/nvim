@@ -189,6 +189,8 @@ return {
         filetypes = { "terraform", "tf" },
       })
 
+      require("lspconfig").rust_anlyzer.setup({})
+
       require("lspconfig").bashls.setup({})
 
       require("lspconfig").lua_ls.setup(lsp.nvim_lua_ls())
