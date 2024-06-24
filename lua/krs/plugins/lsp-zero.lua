@@ -91,7 +91,6 @@ return {
           "pyright",
           "ansiblels",
           "yamlls",
-          "gopls",
         },
       })
 
@@ -108,7 +107,6 @@ return {
           "markdownlint",
           "jq",
           "debugpy",
-          "delve",
         },
       })
     else
